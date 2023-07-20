@@ -1,0 +1,12 @@
+<div class="card">
+
+  <div class="card-header">
+    <h5>Tier Hinzufügen/Bearbeiten</h5>
+  </div>
+
+  <div class="card-body">
+    <input class="form-control mb-2" type="text" placeholder="Name" [(ngModel)]="animalForm.name">
+    <input class="form-control mb-2" type="text" placeholder="Tierart" [(ngModel)]="animalForm.type">
+    <button class="btn btn-primary mb-2" (click)="handleSave()">Speichern</button>
+  </div>
+</div>
